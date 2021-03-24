@@ -1,0 +1,69 @@
+html {
+	background-image: -moz-linear-gradient(top, white 0%, #facd8a 100%);
+	background-image: -webkit-linear-gradient(top, white 0%, #facd8a 100%);
+	background-image: -o-linear-gradient(top, white 0%, #facd8a 100%);
+	background-image: linear-gradient(top, white 0%, #facd8a 100%);
+}
+
+body {
+	width: 600px;
+	background-color: white;
+	border: 1px solid black;
+	margin: 15px auto;
+	padding: 15px 25px;
+	border-radius: 25px;
+	box-shadow: 5px 5px 0 0;
+}
+.content {
+	border-bottom: 2px solid yellow;
+}
+.logo {
+	width: 20%;
+	height: 100px;
+	float: left;
+	border-bottom: 2px solid yellow;
+}
+.slogan {
+	width: 80%;
+	height: 100px;
+	float: left;
+	text-align: center;
+	line-height: 0px;
+	border-bottom: 2px solid yellow;
+}
+.text1 {
+	color: #FFCC33;
+	font-size: 28pt;
+    text-shadow: 2px 1px 1px black;
+    font-weight: bold;
+}
+.text2 {
+	color: #00CC33;
+	font-size: 18pt;
+    font-weight: bold;
+    line-height: 20px;
+    font-style: italic;
+}
+.text3 {
+	font-size: 25pt;
+    font-weight: bold;
+    line-height: 50px;
+}
+.months {
+	line-height: 20px;
+}
+.link1 {
+	color: gray;
+}
+.link2 {
+	color: #00CC33;
+}
+.text4 {
+	font-size: 15pt;
+    font-weight: bold;
+    line-height: 20px;
+}
+footer {
+	height: 15px;
+	text-align: right;
+}
