@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.ex1 {
+	border: 1px solid green;
+	width: 300px;
+	height: 300px;
+	padding: 30px; /*khoảng cách từ chủ thể đến border*/
+	margin: 50px; /*khoảng cách từ đối tượng này so với đối tượng khác*/
+}
+.ex2 {
+	border: 2px dotted blue;
+	width: 400px;
+	height: 150px;
+	border-top: 10px dashed red;
+}
+.ex3 {
+	border: 3px dotted black;
+	margin: 0 auto;
+	width: 1000px;
+}
+.ex31 {
+	border: 3px solid black;
+	margin: 30px;
+}
+.ex311 {
+	border: 2px dashed black;
+	height: 100px;
+	width: 90%;
+	margin: 20px 50px 20px 50px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 100px;
+}
+.ex312 {
+	border: 2px dashed black;
+	height: 100px;
+	width: 90%;
+	margin: 20px 50px 20px 50px;
+}
