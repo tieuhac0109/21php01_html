@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: silver;
+}
+header {
+	height: 100px;
+}
+section {
+	height: 400px;
+}
+footer {
+	height: 200px;
+}
+.logo {
+	border: 1px solid red;
+	height: 100px;
+	width: 20%;
+	float: left;
+	text-align: center;
+	line-height: 100px;
+}
+.banner {
+	border: 1px solid red;
+	height: 100px;
+	width: 80%;
+	float: left;
+	text-align: center;
+	line-height: 100px;
+}
+.slider {
+	border: 1px solid red;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	line-height: 100px;
+}
+.news1 {
+	border: 1px solid red;
+	height: 300px;
+	width: 50%;
+	float: left;
+	text-align: center;
+	line-height: 300px;
+}
+.news2 {
+	border: 1px solid red;
+	height: 300px;
+	width: 50%;
+	float: left;
+	text-align: center;
+	line-height: 300px;
+}
+.footer1 {
+	border: 1px solid red;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	line-height: 100px;
+}
+.footer2 {
+	border: 1px solid red;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	line-height: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+	body {
+		background-color: yellow;
+	}
+	.logo, .banner, .slider, .news1, .news2, .footer1, .footer2 {
+		width: 100%;
+	}
+
+}
+@media screen and (max-width: 768px) {
+	body {
+		background-color: blue;
+	}
+}
+@media screen and (max-width: 480px) {
+	body {
+		background-color: yellow;
+	}
+	.logo, .slider, .news1, .news2, .footer1 {
+		width: 100%;
+		border: 1px solid blue;
+	}
+	.banner, .footer2 {
+		display: none;
+	}
+}
