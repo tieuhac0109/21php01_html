@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#nav_list ul {
+	list-style-type: none;
+	margin-left: 1.25em;
+	margin-bottom: 1.5em;
+}
+#nav_list ul li {
+	width: 200px;
+	margin-bottom: 0.5em;
+	border: 2px solid blue;
+}
+#nav_list ul li a {
+	display: block;
+	padding: .5em 0 .5em 1.5em;
+	text-decoration: none;
+	font-weight: bold;
+	color: blue;
+}
+#nav_list ul li a.current {
+	background-color: silver;
+}
+
+
+#nav_bar1 ul {
+	list-style-type: none;
+	margin-left: 1.25em;
+	margin-bottom: 1.5em;
+}
+#nav_bar1 ul li {
+	margin-bottom: .5em;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	float: left;
+}
+#nav_bar1 ul li a {
+	text-align: center;
+	display: block;
+	width: 175px;
+	padding: 1em 0;
+	text-decoration: underline;
+	font-weight: bold;
+	color: blue;
+}
+#nav_bar1 ul li a.current {
+	text-decoration: none;
+}
+
+
+.h1vartical {
+	clear: left;
+}
+#nav_bar2 ul {
+	list-style-type: none;
+	margin-left: 1.25em;
+	margin-bottom: 1.5em;
+}
+#nav_bar2 ul li {
+	margin-bottom: .5em;
+	border: 2px solid blue;
+	float: left;
+}
+#nav_bar2 ul li a {
+	text-align: center;
+	display: block;
+	width: 175px;
+	padding: 1em 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background-color: blue;
+	border: 2px solid white;
+}
+#nav_bar2 ul li a.current {
+	color: yellow;
+}
