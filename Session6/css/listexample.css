@@ -1,0 +1,24 @@
+ul li {
+	list-style-type: none;
+}
+ol li {
+	list-style-type: decimal-leading-zero;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+a:link {
+	color: red;
+}
+a:visited {
+	color: green;
+}
+a:hover {
+	color: grey;
+}
+#question1, #question2, #question3 {
+	height: 800px;
+}

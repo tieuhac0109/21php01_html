@@ -23,26 +23,32 @@
 	background-color: silver;
 }
 
-
+* {
+	margin: 0;
+	padding: 0;
+}
 #nav_bar1 ul {
 	list-style-type: none;
-	margin-left: 1.25em;
-	margin-bottom: 1.5em;
+	margin-left: 40px;
+	margin-bottom: 50px;
 }
 #nav_bar1 ul li {
-	margin-bottom: .5em;
+	margin-bottom: 20px;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 	float: left;
+	height: 80px;
 }
 #nav_bar1 ul li a {
 	text-align: center;
 	display: block;
-	width: 175px;
-	padding: 1em 0;
+	width: 200px;
 	text-decoration: underline;
 	font-weight: bold;
 	color: blue;
+	margin: 15px 0;
+	border-right: 2px solid black;
+	padding: 10px;
 }
 #nav_bar1 ul li a.current {
 	text-decoration: none;

@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.border {
+	border: 2px solid black;
+	width: 30%;
+	padding: 10px;
+	box-shadow: 5px 5px 10px 0px #666;
+}
+#nav_list ul {
+	list-style-type: none;
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+#nav_list ul li {
+	border: 2px solid blue;
+	width: 200px;
+	margin-bottom: 15px;
+}
+#nav_list ul li a {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	color: blue;
+	padding: 5px 0 5px 15px;
+}
+#nav_list ul li a.current {
+	background-color: silver;
+}
