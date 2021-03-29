@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	background-image: -webkit-linear-gradient(top, white 0%, #facd8a 100%);
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 87.5%;
+	background-color: white;
+	border: 1px solid black;
+	width: 60%;
+	margin: 20px auto;
+	padding: 15px 25px;
+	box-shadow: 1px 1px 0 0;
+}
+.logo {
+	width: 20%;
+	height: 100px;
+	float: left;
+	border: 1px solid black;
+	padding: 10px 0 10px 20px;
+}
+.slogan {
+	width: 80%;
+	height: 100px;
+	float: left;
+	border: 1px solid black;
+}
+.slogan h1 {
+	color: #FFCC33;
+	font-size: 25pt;
+    text-shadow: 2px 1px 1px black;
+    font-weight: bold;
+}
+.slogan p {
+	color: #00CC33;
+	font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+}
