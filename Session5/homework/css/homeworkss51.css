@@ -6,15 +6,7 @@
 body {
 	background-color: silver;
 }
-header {
-	height: 100px;
-}
-section {
-	height: 400px;
-}
-footer {
-	height: 200px;
-}
+
 .logo {
 	border: 1px solid red;
 	height: 100px;
@@ -37,6 +29,7 @@ footer {
 	width: 100%;
 	text-align: center;
 	line-height: 100px;
+	float: left;
 }
 .news1 {
 	border: 1px solid red;
@@ -60,6 +53,7 @@ footer {
 	width: 100%;
 	text-align: center;
 	line-height: 100px;
+	float: left;
 }
 .footer2 {
 	border: 1px solid red;
@@ -67,14 +61,12 @@ footer {
 	width: 100%;
 	text-align: center;
 	line-height: 100px;
+	float: left;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
 	body {
-		background-color: yellow;
-	}
-	.logo, .banner, .slider, .news1, .news2, .footer1, .footer2 {
-		width: 100%;
+		background-color: green;
 	}
 
 }
@@ -82,14 +74,32 @@ footer {
 	body {
 		background-color: blue;
 	}
+	.logo, .banner {
+		width: 100%;
+	}
+	.news1, .news2 {
+		width: 50%;
+		height: 100px;
+		line-height: 100px;
+	}
+	.slider {
+		display: none;
+	}
+	.footer1, .footer2 {
+		width: 50%;
+		float: left;
+	}
 }
 @media screen and (max-width: 480px) {
 	body {
 		background-color: yellow;
 	}
-	.logo, .slider, .news1, .news2, .footer1 {
+	.logo, .news1, .news2, .footer1 {
 		width: 100%;
-		border: 1px solid blue;
+	}
+	.slider {
+		display: block;
+		width: 100%;
 	}
 	.banner, .footer2 {
 		display: none;
