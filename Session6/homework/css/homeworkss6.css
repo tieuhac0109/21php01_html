@@ -17,17 +17,15 @@ body {
 	box-shadow: 1px 1px 0 0;
 }
 .logo {
-	width: 20%;
+	width: 15%;
 	height: 100px;
 	float: left;
-	border: 1px solid black;
-	padding: 10px 0 10px 20px;
+	padding: 10px 0;
 }
 .slogan {
-	width: 80%;
+	width: 85%;
 	height: 100px;
 	float: left;
-	border: 1px solid black;
 }
 .slogan h1 {
 	color: #FFCC33;
@@ -41,3 +39,71 @@ body {
     font-weight: bold;
     font-style: italic;
 }
+nav {
+	clear: left;
+}
+nav ul {
+	height: 30px;
+	list-style-type: none;
+	margin-bottom: 20px;
+	border-top: 2px solid #FFCC33;
+	border-bottom: 2px solid #FFCC33;
+}
+nav ul li {
+	height: 16px;
+	border-right: 2px solid black;
+	float: left;
+	margin-top: 5px;
+}
+nav ul li a {
+	text-align: center;
+	display: block;
+	font-weight: bold;
+	color: #00CC33;
+	padding: 0 25px;
+}
+.home {	color: #FFCC33;}
+
+section {
+	clear: left;
+}
+.left {
+	width: 60%;
+	float: left;
+	border-right: 2px solid #FFCC33;
+	margin-bottom: 15px;
+}
+h2 {font-size: 25px;}
+.link1 {color: gray;}
+.link2 {color: #00CC33;}
+.link3 {color: #FFCC33;}
+.left ul {
+	padding: 5px 0 0 20px;
+}
+.left ul li {
+	padding: 2px 0;
+}
+.left h3 {padding: 20px 0 5px;}
+.left p {padding: 5px 50px 0 5px;}
+.right {
+	width: 40%;
+	float: left;
+	padding: 0 20px;
+}
+.right h3 {padding-bottom: 10px;}
+.right p {padding: 10px 0;}
+h4 {
+	color: #00CC33;
+	font-weight: bold;
+	font-size: 14px;
+}
+footer {
+	clear: left;
+	border-top: 2px solid #FFCC33;
+	margin-top: 20px;
+	text-align: right;
+	font-size: 12px;
+	padding-top: 8px;
+}
+a:hover {
+	color: red;
