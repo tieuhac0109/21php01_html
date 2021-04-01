@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+table {
+	width: 1500px;
+	margin: 0 auto;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+table, tr, th, td {
+	border: 1px solid grey;
+}
+thead, tfoot {
+	background-color: #ada;
+}
+h1, p {
+	text-align: center;
+	padding: 5px;
+}
+.my-table {overflow-x: scroll;}
+.row3 {
+	color: red;
+	font-weight: bold;
+}
+.row4 {
+	background-color: yellow;
+}
+.col8 {background-color: yellow;}
