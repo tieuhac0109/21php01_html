@@ -50,29 +50,67 @@
 					<option>...</option>
 				</select>								
 			</p>
+		</div>
 		<div class="row">
 			<p class="format" id="width-p">Address</p>
 			<p>
 				<input class="size1" type="text" name="address" required pattern="[A-Za-z0-9]+" maxlength="1000">
+			</p>		
+		</div>
+		<div class="row">
+			<p class="format" id="width-p">City</p>
+			<p class="format"><input class="size" type="text" name="city" maxlength="50" placeholder="Bangalore"> (Max 50 Characters Allowed)</p>
+		</div>	
+		<div class="row">
+			<p class="format" id="width-p">Pin Code</p>
+			<p class="format"><input class="size" type="number" name="pincode" maxlength="6" placeholder="560068"> (Max 6 Numbers Allowed)</p>
+		</div>	
+		<div class="row">
+			<p class="format" id="width-p">State</p>
+			<p class="format"><input class="size" type="text" name="state" maxlength="50" placeholder="Kamataka"> (Max 50 Characters Allowed)</p>
+		</div>
+		<div class="row">
+			<p class="format" id="width-p">Country</p>
+			<p class="format"><input class="size" type="text" name="country" placeholder="India"></p>
+		</div>
+		<div class="row">
+			<p class="format" id="width-p">Hobbies</p>
+			<p class="format" id="width514">
+				<input type="checkbox" name="drawing"> Drawing
+				<input type="checkbox" name="singing"> Singing
+				<input type="checkbox" name="dancing"> Dancing
+				<input type="checkbox" name="sketching"> Sketching
+				<br>
+				<input type="checkbox" name="others"> Others
+				<input class="size2" type="text" name="others" maxlength="50" placeholder="Ex-Teaching"> (Max 50 Characters Allowed)
 			</p>
-		</div>			
-		</div>		
-		<p>Main Programming Language</p>
-		<p>
-			<select class="size">
-				<option>Python</option>
-				<option>JavaScript</option>
-				<option>Java</option>
-				<option>C#/C/C++</option>
-			</select>
-		</p>
-		<div>
-			<div>
-				<input class="format-register" type="submit" name="register" value="Register">
-			</div>
-			<div>
-				<input class="format-login" type="submit" name="login" value="Login">
-			</div>
+		</div>
+		<div class="row">
+			<p class="format" id="width-p">Qualification</p>
+			<p class="format" id="width514">
+				<input type="checkbox" name="highschool"> High School(10th)<br>
+				<input type="checkbox" name="higherschool"> Higher School(12th)<br>
+				<input type="checkbox" name="graduation"> Graduation(Bachelors)<br>
+				<input type="checkbox" name="postgraduation"> Post Graduation(Masters)<br>
+				<input type="checkbox" name="phd"> Phd
+			</p>
+		</div>
+		<div class="row">
+			<p class="format" id="width-p">Courses Applied For</p>
+			<p class="format" id="width514">
+				<input type="radio" name="bca"> BCA(Bachelor of Computer Applications)<br>
+				<input type="radio" name="bcom"> B.Com(Bachelor of Commerce)<br>
+				<input type="radio" name="bsc"> B.Sc(Bachelor of Science)<br>
+				<input type="radio" name="ba"> BA(Bachelor of Arts)<br>
+				<input type="radio" name="mca"> MCA(Master of Computer Applications)<br>
+				<input type="radio" name="mcom"> M.Com(Master of Commerce)<br>
+				<input type="radio" name="msc"> M.Sc(Master of Science)<br>
+				<input type="radio" name="ma"> MA(Master of Arts)<br>
+			</p>
+		</div>
+		<div class="row" id="submit">
+			<p class="format" id="sub1"><input id="sub" type="submit" name="submit" value="Submit"></p>
+			<p class="format" id="sub2"><input id="sub" type="submit" name="reset" value="Reset"></p>
 		</div>
 	</form>	
 </body>

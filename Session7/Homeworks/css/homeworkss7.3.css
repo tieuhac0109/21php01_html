@@ -18,18 +18,24 @@ h2 {
 form {
 	border: 2px dashed black;
 	padding: 10px 20px;
-	background-color: green;
 	color: white;
 	font-weight: bold;
+	background-image: linear-gradient(#03a9f4
+, violet, pink);
 }
 p {font-weight: bold;}
 .size {
 	height: 30px;
-	width: 40%;
+	width: 300px;
 }
 .size1 {
 	height: 150px;
 	width: 50%;
+}
+.size2 {
+	height: 30px;
+	width: 300px;
+	word-wrap: break-word;
 }
 .format {
 	float: left;
@@ -40,16 +46,20 @@ p {font-weight: bold;}
 #width-p {
 	width: 200px;
 }
-.format-register, .format-login {
-	width: 369px;
-	height: 50px;
-	float: left;
-	border-radius: 5px;
-	margin-top: 30px;
-
+p#width514 {
+	width: 514px;
+	line-height: 30px;
 }
-.format-register {
+div#submit.row {
+	border: 1px solid red;
+	height: 50px;
+	padding: 0 246px;
+}
+input#sub {
+	margin: 10px auto;
+	height: 30px;
+	width: 100px;
+}
+p#sub1.format {
 	margin-right: 20px;
-	background-color: #007fff;
-	color: white;
 }
