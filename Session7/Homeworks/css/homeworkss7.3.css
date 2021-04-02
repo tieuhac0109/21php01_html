@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid red;
+	line-height: 50px;
+}
+h2 {
+	text-align: center;
+	color: blue;
+	text-decoration-line: underline;
+}
+form {
+	border: 2px dashed black;
+	padding: 10px 20px;
+	background-color: green;
+	color: white;
+	font-weight: bold;
+}
+p {font-weight: bold;}
+.size {
+	height: 30px;
+	width: 40%;
+}
+.size1 {
+	height: 150px;
+	width: 50%;
+}
+.format {
+	float: left;
+}
+.row {
+	clear: left;
+}
+#width-p {
+	width: 200px;
+}
+.format-register, .format-login {
+	width: 369px;
+	height: 50px;
+	float: left;
+	border-radius: 5px;
+	margin-top: 30px;
+
+}
+.format-register {
+	margin-right: 20px;
+	background-color: #007fff;
+	color: white;
+}

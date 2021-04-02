@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homeworkss7.3</title>
+	<link rel="stylesheet" href="css/homeworkss7.3.css">
+</head>
+<body>
+	<h2>Student Registration Form Using Table in HTML</h2>
+	<form name="register" action="#" method="POST" target="_blank">
+		<div class="row">
+			<p class="format" id="width-p">Fist Name</p>
+			<p class="format"><input class="size" type="text" name="fistname" required pattern="[A-Za-z]+" maxlength="50" placeholder="Ghanendra"> (Max 50 Characters Allowed)</p>
+		</div>
+		<div class="row">
+			<p class="format" id="width-p">Last Name</p>
+			<p class="format"><input class="size" type="text" name="lastname" required pattern="[A-Za-z]+" maxlength="50" placeholder="Yadav"> (Max 50 Characters Allowed)</p>
+		</div>		
+		<div class="row">
+			<p class="format" id="width-p">Email ID</p>
+			<p><input class="size" type="email" name="email" maxlength="50" placeholder="yghanendra@gmail.com"></p>
+		</div>	
+		<div class="row">
+			<p class="format" id="width-p">Mobile Number</p>
+			<p><input class="size" type="number" name="mobilenumber" placeholder="7842xxxxxx" pattern="[0-9]{10}"> (10 Digits Allowed)</p>
+		</div>
+		<div class="row">
+			<p class="format" id="width-p">Gender</p>
+			<P><input type="radio" name="gender" value="male"> Male
+			<input type="radio" name="gender" value="female"> Female</P>
+		</div>
+		<div class="row">
+			<p class="format" id="width-p">Date of Birth(DOB)</p>
+			<p>
+				<select>
+					<option>Day:</option>
+					<option>1</option>
+					<option>2</option>
+					<option>...</option>
+				</select>
+				<select>
+					<option>Month:</option>
+					<option>1</option>
+					<option>2</option>
+					<option>...</option>
+				</select>
+				<select>
+					<option>Year:</option>
+					<option>1990</option>
+					<option>1991</option>
+					<option>...</option>
+				</select>								
+			</p>
+		<div class="row">
+			<p class="format" id="width-p">Address</p>
+			<p>
+				<input class="size1" type="text" name="address" required pattern="[A-Za-z0-9]+" maxlength="1000">
+			</p>
+		</div>			
+		</div>		
+		<p>Main Programming Language</p>
+		<p>
+			<select class="size">
+				<option>Python</option>
+				<option>JavaScript</option>
+				<option>Java</option>
+				<option>C#/C/C++</option>
+			</select>
+		</p>
+		<div>
+			<div>
+				<input class="format-register" type="submit" name="register" value="Register">
+			</div>
+			<div>
+				<input class="format-login" type="submit" name="login" value="Login">
+			</div>
+		</div>
+	</form>	
+</body>
+</html>
