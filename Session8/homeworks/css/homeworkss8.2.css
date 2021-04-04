@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body {
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid red;
+	height: 500px;
+}
+header {
+	border: 1px solid red;
+	height: 40px;
+	line-height: 38px;
+	background: #efefef;
+
+}
+.p1, .p2, .p3, .p4, .icon1, .quaylai {
+	float: left;
+}
+}
+.p1 {
+	padding-left: 5px;
+}
+.p2 {
+	color: gray;
+}
+.p3 {
+	margin: 0 10px 0 40%;
+}
+.quaylai {
+	height: 28px;
+	width: 80px;
+	background-color: white;
+	border: 1px solid #cccccc;
+	text-align: center;
+	line-height: 28px;
+}
+.icon1 {
+	height: 28px;
+	width: 28px;
+	background-color: white;.
+	border: 1px solid #cccccc;
+	text-align: center;
+	line-height: 28px;
+
+}
+.p4 button {
+	height: 28px;
+	width: 120px;
+	background-color: #b985f2;
+}
+.p4 i {
+	height: 28px;
+	width: 28px;
+	background-color: #874bc6;
+	text-align: center;
+	line-height: 23px;
+
+}
+
+
+
+/*button {border: 1px solid #cccccc;*/
