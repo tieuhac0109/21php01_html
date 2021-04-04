@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro javascript</title>
+	<link rel="stylesheet" href="css\ss8.css">
+	<!-- Internal -->
+		
+</head>
+<body>
+	<!-- Inline -->
+	<p onclick="alert('Test click')">Click me</p>
+	<div id="demo">Test click</div>
+	<div id="test_external" onclick="testExternal();">Demo external</div>
+
+	<br>
+	<br>
+	<br>
+
+	<!-- Thay đổi nội dung HTML -->
+	<div id="change_content">Đây là nội dung đầu tiên</div>
+	<a href="#" onmouseover="change_content();" onmouseleave="change_content_2();">Change content</a>
+
+
+	<br>
+	<br>
+	<br>
+
+	<img src="img/image1.jpg" alt="Test img" id="change_image" width="500" height="300">
+	<a href="#" onclick="changeImage();">Change Image</a>
+
+	<br>
+	<br>
+	<img src="img/bulbon.jpg" alt="Test image" id="bulbon" width="300"	height="400">
+	<a href="#" onclick="changeOn()">ON</a> | <a href="#" onclick="changeOff()">OFF</a>
+
+
+
+
+	<script type="text/javascript">
+		document.getElementById("demo").innerHTML = "Hello World";
+		document.getElementById("demo").style.color = "red";
+	</script>
+	<script type="text/javascript" src="js/ss8.js"></script>
+</body>
+</html>
