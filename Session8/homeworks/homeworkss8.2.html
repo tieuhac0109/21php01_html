@@ -11,16 +11,33 @@
 		<div class="p2">/&emsp;Thêm mới Hàng hóa</div>
 		<div class="p3">
 			<div class="icon1"><i class="fas fa-arrow-left"></i></div>
-			<div class="quaylai"><button name="quaylai" type="button">Quay lại</button></div>
+			<button class="quaylai" name="quaylai" type="button">Quay lại</button>
 		</div>
 		<div class="p4">
-			<!-- <i class="fa fa-save"></i> -->
-			<button name="luu&themmoi" type="button">Lưu và thêm mới</button>
+			<div class="icon2"><i class="fa fa-save"></i></div>
+			<button class="luu" name="luu&themmoi" type="button">Lưu và thêm mới</button>
 		</div>
 	</header>
 	<section>
-
-
+		<div class="p5">Thông tin cơ bản</div>
+		<form name="register" action="#" method="POST" target="_blank">
+			<div class="row" id="row1">
+				<p class="format" id="width-p">Loại sản phẩm</p>
+				<p class="format">
+					<select class="size1">
+						<option>Dịch vụ</option>
+						<option>Công nghiệp</option>
+						<option>Nông nghiệp</option>
+					</select>	
+				</p>
+			</div>
+			<div class="row" id="row2">
+				<p class="format" id="width-p">Mã Dịch vụ (SKU)</p>
+				<p class="format">
+					<input class="size2" type="text" name="mahh" pattern="[A-Za-z0-9]" placeholder="Mã hàng hóa tự động"><i class="fa fa-info-circle"></i>
+				</p>
+			</div>
+		</form>
 	</section>
 	<footer>
 		

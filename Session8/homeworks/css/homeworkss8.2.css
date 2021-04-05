@@ -5,21 +5,19 @@
 
 }
 body {
-	width: 80%;
+	width: 800px;
 	margin: 0 auto;
 	border: 1px solid red;
-	height: 500px;
 }
 header {
 	border: 1px solid red;
 	height: 40px;
 	line-height: 38px;
-	background: #efefef;
+	background-color: #efefef;
 
 }
-.p1, .p2, .p3, .p4, .icon1, .quaylai {
+.p1, .p2, .p3, .p4, .icon1, .quaylai, .icon2, .luu, .format {
 	float: left;
-}
 }
 .p1 {
 	padding-left: 5px;
@@ -28,10 +26,13 @@ header {
 	color: gray;
 }
 .p3 {
-	margin: 0 10px 0 40%;
+	margin: 3px 10px 0 25%;
+}
+.p4 {
+	margin-top: 3px;
 }
 .quaylai {
-	height: 28px;
+	height: 30px;
 	width: 80px;
 	background-color: white;
 	border: 1px solid #cccccc;
@@ -39,28 +40,87 @@ header {
 	line-height: 28px;
 }
 .icon1 {
-	height: 28px;
-	width: 28px;
-	background-color: white;.
-	border: 1px solid #cccccc;
-	text-align: center;
+	height: 30px;
+	width: 30px;
 	line-height: 28px;
-
-}
-.p4 button {
-	height: 28px;
-	width: 120px;
-	background-color: #b985f2;
-}
-.p4 i {
-	height: 28px;
-	width: 28px;
-	background-color: #874bc6;
+	background-color: white;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
 	text-align: center;
-	line-height: 23px;
-
+}
+.luu {
+	height: 30px;
+	width: 120px;
+	background-color: #333399;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-left: none;
+	text-align: center;
+	background-color: #6600ff;
+	color: white;
+}
+.icon2 {
+	height: 30px;
+	width: 30px;
+	line-height: 28px;
+	color: white;
+	background-color: #333399;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	text-align: center;
+}
+section {
+	border: 1px solid #cccccc;
+	height: 500px;
+	margin: 15px 30px 15px 10px;
+}
+.p5 {
+	height: 40px;
+	padding-left: 20px;
+	border-bottom: 1px solid #cccccc;
+	background-color: #efefef;
+	line-height: 39px;
 }
 
 
 
-/*button {border: 1px solid #cccccc;*/
+footer {
+	border: 1px solid #cccccc;
+	height: 120px;
+	margin: 0px 30px 10px 10px;
+}
+form {
+	padding: 20px 10px;
+}
+.row {
+	clear: left;
+	height: 30px;
+}
+#width-p {
+	width: 30%;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	margin-right: 20px;
+}
+.size1 {
+	width: 200px;
+	height: 30px;
+	border: 1px solid #cccccc;
+}
+.size2 {
+	width: 460px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #cccccc;
+	position: relative;
+}
+#row1, #row2 {
+	margin-top: 10px;
+}
+#width-i {
+
+}
