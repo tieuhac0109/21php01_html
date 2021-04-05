@@ -21,26 +21,71 @@
 	<section>
 		<div class="p5">Thông tin cơ bản</div>
 		<form name="register" action="#" method="POST" target="_blank">
-			<div class="row" id="row1">
+			<div class="row">
 				<p class="format" id="width-p">Loại sản phẩm</p>
-				<p class="format">
+				<div class="format">
 					<select class="size1">
 						<option>Dịch vụ</option>
 						<option>Công nghiệp</option>
 						<option>Nông nghiệp</option>
 					</select>	
-				</p>
+				</div>
 			</div>
-			<div class="row" id="row2">
+			<div class="row">
 				<p class="format" id="width-p">Mã Dịch vụ (SKU)</p>
-				<p class="format">
-					<input class="size2" type="text" name="mahh" pattern="[A-Za-z0-9]" placeholder="Mã hàng hóa tự động"><i class="fa fa-info-circle"></i>
-				</p>
+				<div class="format" id="container-1">
+					<input class="size2" type="text" name="mahh" pattern="[A-Za-z0-9]" placeholder="Mã hàng hóa tự động" >
+					<div class="icon3"><i class="fa fa-info-circle"></i>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<p class="format" id="width-p">Mã vạch</p>
+				<div class="format">
+					<input class="size3" type="text" name="mavach" pattern="[A-Za-z0-9]" placeholder="Mã vạch sản phẩm">
+					<div class="icon4"><i class="fa fa-info-circle"></i>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<p class="format" id="width-p">Tên Dịch vụ<span style="color: red;">(*)</span></p>
+				<div class="format">
+					<input class="size4" type="text" name="tendv" pattern="[A-Za-z0-9]">
+				</div>
+			</div>
+			<div class="row">
+				<p class="format" id="width-p">Nhóm Dịch vụ</p>
+				<div class="format">
+					<select class="size5">
+							<option>Chọn hoặc nhập tên nhóm hàng hóa</option>
+							<option>Công nghiệp</option>
+						<option>Nông nghiệp</option>
+					</select>
+					<div class="icon5"><i class="fas fa-plus"></i>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<p class="format" id="width-p">Giá bán<span style="color: red;">(*)</span></p>
+				<div class="format">
+					<input class="size6" type="text" name="giaban" pattern="[A-Za-z0-9]" placeholder="0">
+					<div class="dvt">đ</div>
+				</div>
+			</div>
+			<div class="row">
+				<p class="format" id="width-p">Quản lý theo Serial/IMEI</p>
+				<div class="format">
+					<input class="size7" type="checkbox" name="serial">
+				</div>
 			</div>
 		</form>
 	</section>
 	<footer>
-		
+		<div class="size8">Ảnh hàng hóa</div>
+		<div id="container-2">
+			<div class="icon6"><i class="fas fa-image"></i></div>
+			<input class="size9" type="button" name="img" value="Thêm ảnh" />			
+		</div>
 	</footer>
 
 </body>
