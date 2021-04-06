@@ -29,3 +29,6 @@ p {font-weight: bold;}
 	background-color: #007fff;
 	color: white;
 }
+div.reg {
+	height: 100px;
+}
