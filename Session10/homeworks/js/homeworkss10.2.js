@@ -94,4 +94,31 @@ function ClickButton(obj) {
 			str_ketqua = '';
 			phim_moi = '';
 	}
+	//Nhóm tính kết quả
+	else if (type == '=' || type == '%') {
+		if (type == '=') {
+			if (phim_moi != '') {
+			mang_so[mang_so_index] = parseFloat(phim_moi);	
+			}
+			//Dấu =
+			if (type == '=') {
+				//Gọi hàm tính
+			}
+			//Dấu %
+			else {
+				//Gọi hàm tính
+			}
+		}
+	}
+	//AC
+	else {
+		if (type == 'AC') {
+		phim_moi = '';
+		//Thay đổi hiển thị
+		ketqua.value = str_ketqua + phim_moi;
+		}
+	}
+
+	console.log(mang_so);
+	console.log(mang_pt);
 }
