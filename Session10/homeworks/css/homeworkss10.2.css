@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial;
+	font-size: 25px;
+}
+#khung {
+	width: 442px;
+	height: 450px;
+	border: 1px solid #AAAAAA;
+	margin: 10px auto;
+}
+#ketqua {
+	height: 80px;
+	width: 420px;
+	margin: 10px;
+	border: 1px solid #BBBBBB;
+	border-radius: 10px;
+	text-align: right;
+	padding: 30px 20px 10px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.clear_all {
+	clear: both;
+}
+#button {
+	margin: 5px;
+	height: 50px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	border: 1px solid #DDDDDD;
+	border-radius: 10px;
+	height: 50px;
+	line-height: 48px;
+}
+#button:hover {
+	background-color: #FFCC00; 
+}
+.button-1 {
+	background-color: #BBBBBB;
+	font-weight: bold;
+}
+.button-2 {
+	background-color: #0099FF;
+	color: white;
+	font-weight: bold;
+}
