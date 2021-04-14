@@ -34,13 +34,13 @@
 // // document.write(myRow5);
 // // document.write("<br>");
 
-var row = "123456789";
+var row = "111111111";
 lengthRow = row.length / 2;
+console.log(lengthRow);
 var star = "*";
 for (var i = 1; i <=9; i = i + 2) {
 	myRow = row.replace(row.substr(lengthRow, i) , star);
 	lengthRow--;
-	star++;
 	document.write(myRow + "<br>");
 
 
