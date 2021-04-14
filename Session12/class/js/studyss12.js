@@ -34,6 +34,12 @@ var myArray4 = [
 			['Huy', 1993, 'huy@yahoo.com', '0935335882'],
 ];
 
-for (var i = 1, j = 1; i, j <= myArray4.length; i++, j++) {
-	document.write(i+". "+ myArray4[i-1][j]+ myArray4[i-1][j]+ myArray4[i-1][j] + myArray4[i-1][j]+"<br>");
-}
+// for (var y = 0, x = 0; x, y < myArray4[0].length; y++, x++) {
+// 	document.write(y+1 + " - " + myArray4[y][x] + " - " + myArray4[y][x+1] + " - " + myArray4[y][x+2] + " - " + myArray4[y][x+3] + "<br>");
+// }
+
+for (var y = 0, x = 0; y < myArray4.length; y++) {
+	// for (var x = 0; x < myArray4[0].length; x++) {
+		document.write(y+1 + " - " + myArray4[y][x] + " - " + myArray4[y][x+1] + " - " + myArray4[y][x+2] + " - " + myArray4[y][x+3] + "<br>");
+	}
+// }
