@@ -12,10 +12,10 @@ var myClass = [
 document.write("Danh sách học viên lớp 21PHP01: <br>");
 
 //Tạo bảng chứa danh sách học viên
-var myClassTable="<table border=2>";
-   for (var y=0; y<myClass.length; y++ ) { // for each row
+var myClassTable = "<table border=2>";
+   for (var y = 0; y < myClass.length; y++ ) { // for each row
       myClassTable += "<tr>";
-      for (var x=0; x<myClass[y].length; x++ ) { // for each clm
+      for (var x = 0; x < myClass[y].length; x++ ) { // for each clm
          myClassTable += "<td>" + myClass[y][x] + "</td>";
       }
        myClassTable += "</tr>";
@@ -34,10 +34,10 @@ myClass.push(["5", "Lâm Tâm Như" , "22" , "0915335883" , "info@lamtamnhu.com"
 myClass.push(["6", "Tiêu Phong" , "26" , "0906885226" , "tieuphong@thandieu.net" , "Đà Nẵng"]);
 
 //Tạo bảng chứa danh sách học viên
-var myClassTable1="<table border=2>";
-   for (var y=0; y<myClass.length; y++ ) { // for each row
+var myClassTable1 = "<table border=2>";
+   for (var y = 0; y < myClass.length; y++ ) { // for each row
       myClassTable1 += "<tr>";
-      for (var x=0; x<myClass[y].length; x++ ) { // for each clm
+      for (var x = 0; x < myClass[y].length; x++ ) { // for each clm
          myClassTable1 += "<td>" + myClass[y][x] + "</td>";
       }
        myClassTable1 += "</tr>";
@@ -63,10 +63,10 @@ for (var i = 0; i < myClass.length; i++) {
   }
 }
 //Tạo bảng chứa danh sách học viên sau khi thay thế
-var myClassTable2="<table border=2>";
-   for (var y=0; y<myClass.length; y++ ) { // for each row
+var myClassTable2 = "<table border=2>";
+   for (var y = 0; y < myClass.length; y++ ) { // for each row
       myClassTable2 += "<tr>";
-      for (var x=0; x<myClass[y].length; x++ ) { // for each clm
+      for (var x = 0; x < myClass[y].length; x++ ) { // for each clm
          myClassTable2 += "<td>" + myClass[y][x] + "</td>";
       }
        myClassTable2 += "</tr>";
@@ -128,10 +128,10 @@ for (var l = 1; l < myClass.length; l++) {
   }
 }
 //Tạo bảng chứa danh sách học viên sau khi thay thế
-var myClassTable3="<table border=2>";
-   for (var y=0; y<myClass.length; y++ ) { // for each row
+var myClassTable3 = "<table border=2>";
+   for (var y = 0; y < myClass.length; y++ ) { // for each row
       myClassTable3 += "<tr>";
-      for (var x=0; x<myClass[y].length; x++ ) { // for each clm
+      for (var x = 0; x < myClass[y].length; x++ ) { // for each clm
          myClassTable3 += "<td>" + myClass[y][x] + "</td>";
       }
        myClassTable3 += "</tr>";
@@ -189,10 +189,10 @@ for (var n = 1; n < lengthString; n++) {
   }
 }
 //Tạo bảng chứa danh sách học viên sau khi đã xóa
-var myClassTable4="<table border=2>";
-   for (var y=0; y<myClass.length; y++ ) { // for each row
+var myClassTable4 = "<table border=2>";
+   for (var y = 0; y < myClass.length; y++ ) { // for each row
       myClassTable4 += "<tr>";
-      for (var x=0; x<myClass[y].length; x++ ) { // for each clm
+      for (var x = 0; x < myClass[y].length; x++ ) { // for each clm
          myClassTable4 += "<td>" + myClass[y][x] + "</td>";
       }
        myClassTable4 += "</tr>";
