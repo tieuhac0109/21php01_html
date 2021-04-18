@@ -12,6 +12,7 @@ var myClass = [
 document.write("Danh sách học viên lớp 21PHP01: <br>");
 
 //Tạo bảng chứa danh sách học viên
+
 var myClassTable = "<table border=2>";
    for (var y = 0; y < myClass.length; y++ ) { // for each row
       myClassTable += "<tr>";

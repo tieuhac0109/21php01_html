@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	width: 400px;
+	border: 1px solid red;
+	padding: 20px;
+	clear: left;
+
+
+}
+p {
+	font-size: 20px;
+	margin: 10px;
+}
+#input1 {
+	height: 30px;
+	width: 300px;
+}
+#input2 {
+	height: 30px;
+	font-size: 15px;
+}
+#sub {
+	float: left;
+	text-align: center;
+	height: 30px;
+	width: 80px;
+	margin: 10 auto;
+}
+#sub:hover {
+	background-color: blue;
+}

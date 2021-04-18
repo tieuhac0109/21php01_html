@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Study session13</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/session13.css">
+</head>
+<body>
+	<form name="register" action="#" method="POST" target="_blank">
+		<div class="name">
+			<p>Họ và tên</p>
+			<p>
+				<input id="input1" type="text" name="name" required pattern="[A-Za-z]+">
+			</p>
+		</div>
+		<div class="beginnumber">
+			<p>Số đầu kỳ</p>
+			<p>
+				<input id="input1" type="text" name="begin" required pattern="[0-9]">
+			</p>
+		</div>
+		<div class="endnumber">
+			<p>Số cuối kỳ</p>
+			<p>
+				<input id="input1" type="text" name="end" required pattern="[0-9]">
+			</p>
+		</div>
+		<div class="gender">
+			<p>Giới tính</p>
+			<p>
+				<input type="radio" name="gender" value="male"> Male
+				<input type="radio" name="gender" value="female"> Female
+			</p>
+		</div>
+		<div class="dayofbirth">
+			<p>Ngày sinh</p>	
+			<p><input id="input2" type="date" name="biday"></p>
+		</div>
+		<div class="dayofbegin">
+			<p>Ngày đầu kỳ</p>
+			<p><input id="input2" type="date" name="beday"></p>
+		</div>
+		<div class="dayofend">
+			<p>Ngày cuối kỳ</p>
+			<p><input id="input2" type="date" name="enday"></p>
+		</div>
+		<div class="submit">
+			<p><input id="sub" type="submit" name="submit" value="Submit"></p>
+			<p><input id="sub" type="submit" name="reset" value="Reset"></p>
+		</div>
+
+	</form>
+	<script type="text/javascript" src="js/session13.js"></script>
+</body>
+</html>
