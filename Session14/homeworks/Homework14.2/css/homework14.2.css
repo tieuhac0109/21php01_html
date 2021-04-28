@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+
+}
+.header-top {
+	height: 30px;
+	background-color: #F2F2F2;
+}
+.header-top-left {
+	width: 50%;
+	height: 30px;
+	float: left;
+	/*border: 1px solid black;*/
+}
+.header-top-right {
+	width: 50%;
+	height: 30px;
+	float: left;
+	/*border: 1px solid black;*/
+}
+.header-top-left ul {
+	list-style-type: none;
+}
+.header-top-left ul li {
+	float: left;
+	width: 40%;
+	height: 28px;
+	text-align: right;
+	padding: 0px 10px;
+	line-height: 28px;
+}
+.header-top-left ul li a {
+	color: gray;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 12px;
+
+}
+.contact {
+	margin-right: 70%;
+}
+
+.header-top-right ul {
+	list-style-type: none;
+}
+.header-top-right ul li {
+	float: left;
+	width: 50%;
+	height: 28px;
+	padding: 0px 10px;
+	line-height: 28px;
+}
+.header-top-right ul li a {
+	color: gray;
+	text-decoration: none;
+	font-size: 14px;
+}
+.header-top-right ul li a i {
+	color: #00BFFF;
+		font-size: 16px;
+}
+.mail {
+	margin-left: 30%;
+}
+
+.header-bottom {
+	background-color: #FFF;
+	height: 100px;
+	/*border: 1px solid gray;*/
+}
+
+
+.header-bottom-left {
+	width: 25%;
+	height: 100px;
+	float: left;
+	/*border: 1px solid black;*/
+	text-align: center;
+}
+.header-bottom-left a img {
+	margin-top: 20px;
+}
+.header-bottom-right {
+	width: 75%;
+	height: 100px;
+	float: left;
+	/*border: 1px solid black;*/
+}
+
+section {
+	height: 1000px;
+	background-color: #CEE3F6;
+}
+
+
+#nav_bar ul {
+	list-style-type: none;
+	position: relative;
+	font-size: 12px;
+	margin: 30px 30px;
+}
+#nav_bar ul li {
+	/*border: 1px solid gray;*/
+	float: left;
+	text-align: center;
+	padding: 10px 15px;
+	position: relative;
+}
+#nav_bar ul li a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+#nav_bar ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_bar ul ul li {
+	float: none;
+	text-align: left;
+	width: 300px;
+	background-color: #FFF;
+	border-bottom: 1px solid #F2F2F2;
+}
+#nav_bar ul ul li a {
+	font-weight: normal;
+}
+#nav_bar ul li a:hover {
+	color: #0082c8;
+}
+#nav_bar ul li:hover >ul {
+	display: block;
+}
+
+#nav_bar .sub-menu {
+	position: absolute;
+	top: 0;
+	left: -30px;
+}
+.row1 {
+	margin-top: 37px;
+}
+#nav_bar li hover .sub-menu {
+	display: block;
+}
